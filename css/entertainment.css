@@ -1,0 +1,119 @@
+.topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.topic .topic__list {
+  display: flex;
+  justify-content: space-between;
+}
+.topic .topic__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  background-color: rgba(64, 103, 255, 0.15);
+  border-radius: 15px 15px 15px 0;
+  color: #4067ff;
+  margin-right: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.news {
+  margin-top: 20px;
+}
+
+.news .news__headline-list {
+  padding: 10px 0;
+}
+
+.news__headline-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px 4px rgba(160, 169, 175, 0.1);
+  font-size: 20px;
+}
+.news__headline-item i {
+  font-size: 16px;
+}
+
+.news__card-news-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news__card-news-title a {
+  color: #ff6329;
+}
+.news__thumbnail {
+  display: flex;
+  justify-content: space-around;
+}
+.news__card-news .news__thumbnail-list {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 120px;
+  margin-top: 10px;
+  color: white;
+  background-color: #c0b6b6;
+  border-radius: 15px;
+  font-weight: 700;
+  background-size: cover;
+}
+
+.news__card-news .news__thumbnail-list:nth-child(1) {
+  background-image: linear-gradient(
+      rgba(71, 71, 71, 0.2),
+      rgba(71, 71, 71, 0.7) 90%
+    ),
+    url("img/news_thumnail01.jpg");
+  margin-right: 6px;
+}
+
+.news__card-news .news__thumbnail-list:nth-child(2) {
+  background-image: linear-gradient(
+      rgba(71, 71, 71, 0.2),
+      rgba(71, 71, 71, 0.7) 90%
+    ),
+    url("img/news_thumnail02.jpg");
+}
+
+.news__card-news .news__thumbnail-list:nth-child(3) {
+  background-image: linear-gradient(
+      rgba(71, 71, 71, 0.2),
+      rgba(71, 71, 71, 0.7) 90%
+    ),
+    url("img/news_thumnail03.jpg");
+  margin-right: 6px;
+}
+
+.news__card-news .news__thumbnail-list:nth-child(4) {
+  background-image: linear-gradient(
+      rgba(71, 71, 71, 0.2),
+      rgba(71, 71, 71, 0.7) 90%
+    ),
+    url("img/news_thumnail04.jpg");
+}
+
+.news__card-news .news__thumbnail-list span {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

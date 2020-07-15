@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kokoa Talk Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <span class="tatus-bar__carrier">DS</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__time">11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-unlock-alt"></i>
+        <i class="fas fa-location-arrow"></i>
+        <span class="status-bar__bettery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-comment-medical"></i>
+        <i class="fas fa-music"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+    </header>
+
+    <main class="chats">
+      <section class="top-banner">
+        <a href="#" class="top-banner__link">
+          <div class="top-banner__column">
+            <img src="img/topbanner.jpg" alt="thumbnail" />
+          </div>
+          <div class="top-banner__column">
+            <span class="top-banner__text">
+              코딩 인생 꿀템 VSC 단축키
+            </span>
+            <span class="top-banner__text">
+              5분 정리해드림
+            </span>
+            <span class="top-banner__bottom-text">Nomad ggul-tip</span>
+          </div>
+        </a>
+      </section>
+      <ul class="friends__list">
+        <li class="friends__chatroom">
+          <a href="chat.html">
+            <div class="friends__chat">
+              <div class="friends__column">
+                <img
+                  src="img/ddalgi.jpg"
+                  alt="straw's avatar"
+                  class="friends__avatar"
+                />
+                <div class="friends__content">
+                  <span class="friends__friend-name">
+                    Straw DDalgi
+                  </span>
+                  <span class="friends__friend-bottom-text">
+                    Enjoy vacation
+                  </span>
+                </div>
+              </div>
+              <div class="friends__column">
+                <div class="friends__content">
+                  <div class="friends__time">
+                    <span class="chat__timestamp">
+                      am 11:03
+                    </span>
+                  </div>
+                  <div class="friends__new-badge">
+                    <span class="chat__new-badge-count">
+                      3
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__chatroom">
+          <a href="#">
+            <div class="friends__chat">
+              <div class="friends__column">
+                <img
+                  src="img/nico.jpg"
+                  alt="nico's avatar"
+                  class="friends__avatar"
+                />
+                <div class="friends__content">
+                  <span class="friends__friend-name">
+                    Nicolas
+                  </span>
+                  <span class="friends__friend-bottom-text">
+                    Alright, Did you eat kimchi today?
+                  </span>
+                </div>
+              </div>
+              <div class="friends__column">
+                <div class="friends__content">
+                  <div class="friends__time">
+                    <span class="chat__timestamp">
+                      am 10:50
+                    </span>
+                  </div>
+                  <div class="friends__new-badge">
+                    <span class="chat__new-badge-count">
+                      1
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="friends__chatroom">
+          <a href="#">
+            <div class="friends__chat">
+              <div class="friends__column">
+                <img
+                  src="img/gull.jpg"
+                  alt="orange's avatar"
+                  class="friends__avatar"
+                />
+                <div class="friends__content">
+                  <span class="friends__friend-name">
+                    Gull
+                  </span>
+                  <span class="friends__friend-bottom-text">
+                    I'm in jeju now
+                  </span>
+                </div>
+              </div>
+              <div class="friends__column">
+                <div class="friends__content">
+                  <div class="friends__time">
+                    <span class="chat__timestamp">
+                      am 10:33
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="friends__chatroom">
+          <a href="#">
+            <div class="friends__chat">
+              <div class="friends__column">
+                <div class="friends__together-avatar-wrapper">
+                  <img
+                    src="img/soobak.jpg"
+                    alt="watermelon's avatar"
+                    class="friends__together-avatar"
+                  />
+                  <img
+                    src="img/boksoonga.jpg"
+                    alt="peach's avatar"
+                    class="friends__together-avatar"
+                  />
+                </div>
+                <div class="friends__content">
+                  <span class="friends__friend-name">
+                    WM, Soong-a
+                  </span>
+                  <span class="friends__friend-bottom-text">
+                    Go to swimming!
+                  </span>
+                </div>
+              </div>
+              <div class="friends__column">
+                <div class="friends__content">
+                  <div class="friends__time">
+                    <span class="chat__timestamp">
+                      am 10:10
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">11</div>
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="entertainment.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

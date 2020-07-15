@@ -1,0 +1,138 @@
+.more__me {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.friends__column .more__my,
+.friends__column .more__cash {
+  width: 70px;
+  height: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more__cash i {
+  margin-right: 5px;
+  color: rgb(238, 187, 48);
+  font-size: 18px;
+}
+
+.more__payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.payment__column {
+  padding: 8px 16px;
+  border: 1px solid lightgrey;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment__column i {
+  margin-right: 5px;
+  font-size: 22px;
+}
+
+.payment__content a {
+  padding: 0px 6px;
+}
+.payment__content a:nth-child(2) {
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+.more__suggestion {
+  margin-top: 20px;
+  padding: 15px 5px;
+}
+.suggestion__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.suggestion__list-item {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.suggestion__icon,
+.suggestion__title {
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion__icon i {
+  font-size: 30px;
+}
+
+.suggestion__title {
+  font-size: 14px;
+}
+
+.more__service {
+  border-top: 1px solid rgb(243, 243, 243);
+  border-bottom: 1px solid rgb(243, 243, 243);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.more__banner {
+  width: 100%;
+  height: 200px;
+  padding: 40px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(transparent, #f0f3f6 50%),
+    url("img/python.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more__banner-text01,
+.more__banner-text02,
+.more__banner-text03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more__banner-text01 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.more__banner-text02 {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.6;
+  padding-bottom: 30px;
+}
+
+.more__banner-text03 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
